@@ -1,6 +1,8 @@
+// rendering fineness
 $fa = 1;
 $fs = 0.2;
 
+// model parameters
 baseDepth=8;
 baseHeight=25;
 baseHoleDiameter=10;
@@ -16,43 +18,60 @@ plugPointDiameter=5;
 stemDiameter=15;
 stemLength=20;
 
-mold();
-//plug();
+// view
+viewMold=false;
+viewPlug=true;
+
+// guts
+if (viewMold) {
+    mold();
+}
+else if (viewPlug) {
+    plug();
+}
 
 module mold() {
     plugHeight=max(baseHeight, plugMinorDiameter, plugPointDiameter);
     plugDiameter=max(plugMinorDiameter, plugPointDiameter);
-    difference() {
-        union() {
-            translate([-plugDiameter/2-moldWall, 0, 0]) {
-                cube([
-                        plugDiameter+2*moldWall,
-                        plugHeight/2+moldWall,
-                        baseDepth+moldWall+plugLength+stemLength]);
-            }
-            translate([-baseWidth/2-moldWall, 0, 0]) {
-                cube([
-                        baseWidth+2*moldWall,
-                        plugHeight/2+moldWall,
-                        baseDepth+moldWall]);
-            }
-        }
-        translate([0, 0, -epsilon]) {
-            plug();
-        }
-        for (sx=[-1, 1]) {
-            scale([sx, 1, 1]) {
-                for (ki=[0, 1]) {
-                    keyWallDistance=moldWall/2+plugDiameter/4-stemDiameter/4;
-                    translate([
-                            moldWall+plugDiameter/2-keyWallDistance,
-                            moldWall+plugHeight/2+epsilon,
-                            (1-ki)*(baseDepth+stemLength/2)
-                                +ki*(baseDepth+moldWall+plugLength+stemLength-keyWallDistance)]) {
-                        rotate([90, 0, 0]) {
-                            cylinder(
-                                    h=moldWall+plugHeight/2+2*epsilon,
-                                    r=moldKeyDiameter/2);
+    translate([0, 0, moldWall+plugHeight/2]) {
+        rotate([270, 0, 0]) {
+            difference() {
+                union() {
+                    translate([-plugDiameter/2-moldWall, 0, 0]) {
+                        cube([
+                                plugDiameter+2*moldWall,
+                                plugHeight/2+moldWall,
+                                baseDepth+moldWall+plugLength+stemLength]);
+                    }
+                    translate([-baseWidth/2-moldWall, 0, 0]) {
+                        cube([
+                                baseWidth+2*moldWall,
+                                plugHeight/2+moldWall,
+                                baseDepth+moldWall]);
+                    }
+                }
+                translate([0, 0, -epsilon]) {
+                    plug();
+                }
+                for (sx=[-1, 1]) {
+                    scale([sx, 1, 1]) {
+                        for (ki=[0, 1]) {
+                            keyWallDistance=moldWall/2+plugDiameter/4-stemDiameter/4;
+                            translate([
+                                    moldWall+plugDiameter/2-keyWallDistance,
+                                    moldWall+plugHeight/2+epsilon,
+                                    (1-ki)*(baseDepth+stemLength/2)
+                                        +ki*(baseDepth
+                                            +moldWall
+                                            +plugLength
+                                            +stemLength
+                                            -keyWallDistance)]) {
+                                rotate([90, 0, 0]) {
+                                    cylinder(
+                                            h=moldWall+plugHeight/2+2*epsilon,
+                                            r=moldKeyDiameter/2);
+                                }
+                            }
                         }
                     }
                 }

@@ -1,6 +1,8 @@
+// rendering fineness
 $fa = 1;
 $fs = 0.9;
 
+// model parameters
 bumpColumns=4;
 bumpDiameter=8;
 bumpDistanceRadial=14;
@@ -21,22 +23,51 @@ moldLip=10;moldWall=1;
 outerDiameter=55;
 wall=4;
 
+// view
+viewMoldBottom=false;
+viewMoldCrossSection=false;
+viewMoldInner=false;
+viewMoldOuter=false;
+viewMoldTop=false;
+viewSqueezerCrossSection=true;
+
+// guts
+if (viewMoldBottom) {
+    moldBottomTop(true);
+}
+else if (viewMoldCrossSection) {
+    crossSection() {
+        mold();
+    }
+}
+else if (viewMoldInner) {
+    moldInner();
+}
+else if (viewMoldOuter) {
+    moldOuter();
+}
+else if (viewMoldTop) {
+    moldBottomTop(false);
+}
+else if (viewSqueezerCrossSection) {
+    crossSection() {
+        dickSqueezer4();
+    }
+}
+
 lobeCenterOffset=outerDiameter*cos(180/lobes-180*lobeGap/(outerDiameter*PI));
 echo(" ### inner diameter", 2*lobeCenterOffset-outerDiameter);
 
 moldDiameter=2*moldLip+2*moldWall+outerDiameter+2*wall+1;
 
-difference() {
-    dickSqueezer4();
-    //mold();
-    translate([-moldDiameter/2, -moldDiameter/2, length/2]) {
-        cube([moldDiameter, moldDiameter/2, length+2*moldWall]);
+module crossSection() {
+    difference() {
+        children();
+        translate([-moldDiameter/2, -moldDiameter/2, length/2]) {
+            cube([moldDiameter, moldDiameter/2, length+2*moldWall]);
+        }
     }
 }
-//moldBottomTop(false);
-//moldBottomTop(true);
-//moldInner();
-//moldOuter();
 
 module dickSqueezer4() {
     color([1, 0.5, 0.25]) {
