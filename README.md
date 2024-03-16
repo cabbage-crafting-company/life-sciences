@@ -1,6 +1,6 @@
 # Cabbage Crafting Company - Life Sciences Division
 
-Print toys fitted to your needs!
+Print toys fitted to your needs! See [images](#images)!
 
 You will need:
  - a 3d printer,
