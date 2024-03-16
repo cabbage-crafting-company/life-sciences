@@ -1,6 +1,6 @@
 // rendering fineness
 $fa = 1;
-$fs = 0.9;
+$fs = 0.5;
 
 // model parameters
 bumpColumns=4;
