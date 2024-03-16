@@ -1,6 +1,6 @@
 # Cabbage Crafting Company - Life Sciences Division
 
-Print toys fitted to you needs!
+Print toys fitted to your needs!
 
 You will need:
  - a 3d printer,
@@ -15,11 +15,11 @@ You will need:
  - silicone,
  - a candle.
 
-## General instructions
+# General instructions
 
 We're going to create a silicone toy by 3d printing a mold, then casting the silicone.
 
-### Openscad
+## Openscad
 
 Open the file you want to print. You should see the model.
 
@@ -33,11 +33,11 @@ You have to go through all parts one by one.
 
 Now you have some stl files.
 
-### 3D printing
+## 3D printing
 
 Print all parts, with the correct printing options. Look for details in the model specific section.
 
-### Assembly
+## Assembly
 
 Clean up the parts, then glue them together.
 There's a recommended order, see below.
@@ -49,7 +49,7 @@ After the glue has set, seal all seams and key holes with wax.
 Use a candle and drip the liquid wax.
 Try to avoid the casting holes.
 
-### Casting
+## Casting
 
 Find a level spot for the mold.
 Prepare a batch of silicone.
@@ -57,26 +57,26 @@ Pour it in a casting hole, slowly.
 
 For the first half hour or so, you have to keep the situation in check.
 Bubbles may rise to the surface and you have to top off the silicone.
-A minor leakage can be saved, again, top it off, again and again, patiently, and the setting silicone will plug it.
+A minor leakage can be saved, top it off, again and again, patiently, and the setting silicone will plug it.
 
-### Breaking the mold
+## Breaking the mold
 
-After the silicone has set, break the mold, using some pliers or cutters or whatever.
+After the silicone has set, break the mold, using some pliers or cutters.
 The molds were never intended for multiple use.
 Remove all parts.
 Clean up your new toy.
 Remove unnecessary parts with a knife.
 Check for major defects.
-Check for platic parts stuck into the silicone.
+Check for platic bits stuck into the silicone.
 Wash the toy with plenty of hot water and soap.
 
-## Butt plug
+# Butt plug
 
 The mold has only two symmetric parts.
 Support is required.
 The casting hole is the whole bottom face.
 
-## Dick Squeezer 4
+# Dick Squeezer 4 / 5
 
 There is no parameter to adjust the inner diameter of the squeezer.
 Compiling the model prints the inner diameter to the log.
@@ -89,6 +89,23 @@ Don't glue the central part to anything.
 First, glue the pipe, then the bottom to the pipe, then put in the central part, and glue the top part to the pipe.
 Make sure the casting holes and the lobes are aligned.
 
-## Should I do this?
+# Should I do this?
 
 No.
+
+# Images
+
+## Butt plug
+
+![Butt plug](/images/butt-plug.png)
+![Butt plug](/images/butt-plug-mold.png)
+
+## Dick squeezer 4
+
+![Butt plug](/images/dick-squeezer-4-cross-section.png)
+![Butt plug](/images/dick-squeezer-4-mold-cross-section.png)
+
+## Dick squeezer 5
+
+![Butt plug](/images/dick-squeezer-5-cross-section.png)
+![Butt plug](/images/dick-squeezer-5-mold-cross-section.png)
