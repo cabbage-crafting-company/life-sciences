@@ -76,7 +76,7 @@ The mold has only two symmetric parts.
 Support is required.
 The casting hole is the whole bottom face.
 
-# Dick Squeezer 4 / 5
+# Dick squeezer 4 / 5
 
 There is no parameter to adjust the inner diameter of the squeezer.
 Compiling the model prints the inner diameter to the log.
@@ -94,6 +94,10 @@ Make sure the casting holes and the lobes are aligned.
 No.
 
 # Images
+
+- [Butt plug](#butt-plug-1)
+- [Dick squeezer 4](#dick-squeezer-4)
+- [Dick squeezer 5](#dick-squeezer-5)
 
 ## Butt plug
 
