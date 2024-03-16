@@ -1,6 +1,6 @@
 # Cabbage Crafting Company - Life Sciences Division
 
-Print toys fitted to your needs! See [images](#images)!
+Print toys fitted to your needs! See the [images](#images)!
 
 You will need:
  - a 3d printer,
@@ -113,3 +113,9 @@ No.
 
 ![Butt plug](/images/dick-squeezer-5-cross-section.png)
 ![Butt plug](/images/dick-squeezer-5-mold-cross-section.png)
+
+# To-do
+
+- make all keys fit only one way
+- dick glider
+- electric toothbrush wand
