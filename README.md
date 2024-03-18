@@ -102,20 +102,32 @@ No.
 ## Butt plug
 
 ![Butt plug](/images/butt-plug.png)
-![Butt plug](/images/butt-plug-mold.png)
+![Butt plug - mold](/images/butt-plug-mold.png)
+![Butt plug - finished](/images/butt-plug.jpg)
 
 ## Dick squeezer 4
 
-![Butt plug](/images/dick-squeezer-4-cross-section.png)
-![Butt plug](/images/dick-squeezer-4-mold-cross-section.png)
+![Dick squeezer 4](/images/dick-squeezer-4-cross-section.png)
+![Dick squeezer 4 - mold](/images/dick-squeezer-4-mold-cross-section.png)
+![Dick squeezer 4 - finished](/images/dick-squeezer-4.jpg)
 
 ## Dick squeezer 5
 
-![Butt plug](/images/dick-squeezer-5-cross-section.png)
-![Butt plug](/images/dick-squeezer-5-mold-cross-section.png)
+![Dick squeezer 5](/images/dick-squeezer-5-cross-section.png)
+![Dick squeezer 5 - mold](/images/dick-squeezer-5-mold-cross-section.png)
+![Dick squeezer 5 - parts](/images/dick-squeezer-5-parts.jpg)
+![Dick squeezer 5 - glued 1](/images/dick-squeezer-5-glued-1.jpg)
+![Dick squeezer 5 - glued 2](/images/dick-squeezer-5-glued-2.jpg)
+![Dick squeezer 5 - glued 3](/images/dick-squeezer-5-glued-3.jpg)
+![Dick squeezer 5 - sealed](/images/dick-squeezer-5-sealed.jpg)
+![Dick squeezer 5 - cast](/images/dick-squeezer-5-cast.jpg)
+![Dick squeezer 5 - pealed](/images/dick-squeezer-5-pealed.jpg)
+![Dick squeezer 5 - inside out](/images/dick-squeezer-5-inside-out.jpg)
+![Dick squeezer 5 - finished](/images/dick-squeezer-5.jpg)
 
 # To-do
 
 - make all keys fit only one way
+- channels to let bubbles out from the butt plug mold
 - dick glider
 - electric toothbrush wand
