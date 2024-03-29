@@ -98,6 +98,7 @@ No.
 - [Butt plug](#butt-plug-1)
 - [Dick squeezer 4](#dick-squeezer-4)
 - [Dick squeezer 5](#dick-squeezer-5)
+- [Toothbrush wand 1](#toothbrush-wand-1)
 
 ## Butt plug
 
@@ -125,9 +126,18 @@ No.
 ![Dick squeezer 5 - inside out](/images/dick-squeezer-5-inside-out.jpg)
 ![Dick squeezer 5 - finished](/images/dick-squeezer-5.jpg)
 
+## Toothbrush wand 1
+
+![Toothbrush wand 1](/images/toothbrush-wand-1.jpg)
+![Toothbrush wand 1 - attachment](/images/toothbrush-wand-1-attachment.png)
+![Toothbrush wand 1 - side](/images/toothbrush-wand-1-side.png)
+![Toothbrush wand 1 - top](/images/toothbrush-wand-1-top.png)
+![Toothbrush wand 1 - parts](/images/toothbrush-wand-1-parts.jpg)
+![Toothbrush wand 1 - cast](/images/toothbrush-wand-1-cast.jpg)
+
 # To-do
 
 - make all keys fit only one way
 - channels to let bubbles out from the butt plug mold
 - dick glider
-- electric toothbrush wand
+- lighter wand
