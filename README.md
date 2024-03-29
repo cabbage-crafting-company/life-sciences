@@ -89,6 +89,10 @@ Don't glue the central part to anything.
 First, glue the pipe, then the bottom to the pipe, then put in the central part, and glue the top part to the pipe.
 Make sure the casting holes and the lobes are aligned.
 
+# Toothbrush wand 1
+
+Put the top in place, then glue the sides together, then glue the top. The top won't fit through the sides glued together.
+
 # Should I do this?
 
 No.
