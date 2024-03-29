@@ -102,7 +102,7 @@ No.
 - [Butt plug](#butt-plug-1)
 - [Dick squeezer 4](#dick-squeezer-4)
 - [Dick squeezer 5](#dick-squeezer-5)
-- [Toothbrush wand 1](#toothbrush-wand-1)
+- [Toothbrush wand 1](#toothbrush-wand-1-1)
 
 ## Butt plug
 
